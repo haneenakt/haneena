@@ -41,7 +41,12 @@
 #     i+=1        
 
    
-def add(a,b):
-    return a+b
-x=add(4,6)
-print(x)
+# def add(a,b):
+#     return a+b
+# x=add(4,6)
+# print(x)
+
+
+c=float(input("enter temperature in celsius:"))
+fahrenheit=(c*9/5)+32
+print("fahrenheit:",fahrenheit)
