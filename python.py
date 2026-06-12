@@ -34,11 +34,14 @@
 #         print(i)
     
 
-i=1
-while i<=10:
-    if i % 2 == 0:
-        print(i)
-    i+=1        
+# i=1
+# while i<=10:
+#     if i % 2 == 0:
+#         print(i)
+#     i+=1        
 
    
-     
+def add(a,b):
+    return a+b
+x=add(4,6)
+print(x)
