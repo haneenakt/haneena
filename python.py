@@ -9,24 +9,25 @@
 # elif c>a and c>b and c>d:
 #    print("the largest number is:",c)
 # elif d>a and d>b and d>c:
-#    print("the largest number is:",d)
+#    print("the largest number is:",d
 # else:
 #    print("all are equal")
 
 
-name=input("name:")
-a=float(input("enter the python mark:"))
-b=float(input("enter the physics mark:"))
-c=float(input("enter the maths mark:"))
-total=a+b+c
-percentage=total/300*100
-print("total=",total)
-print("percentage=",percentage)
-if percentage>=45:
-    print(name,"is passed")
-elif percentage>=0 and percentage<45:
-    print(name,"is failed")
-else:
-    print("invalid")
+# name=input("name:")
+# a=float(input("enter the python mark:"))
+# b=float(input("enter the physics mark:"))
+# c=float(input("enter the maths mark:"))
+# total=a+b+c
+# percentage=total/300*100
+# print("total=",total)
+# print("percentage=",percentage)
+# if percentage>=45:
+#     print(name,"is passed")
+# elif percentage>=0 and percentage<45:
+#     print(name,"is failed")
+# else:
+#     print("invalid")
 
-
+for i in range(1,11):
+    print(i)
