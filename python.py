@@ -52,16 +52,26 @@
 # print("fahrenheit:",fahrenheit)
 
 
-r=100
-l=[]
-sum=0
-for num in range(1,101):
-    c=0
-    for factor in range(1,num+1):
-        if num % factor == 0:
-            c=c+1
-    if c==2:
-        l.append(num)
-        sum=sum+num
-print("list of prime",l)
-print("sum of prime:",sum)
+# r=100
+# l=[]
+# sum=0
+# for num in range(1,101):
+#     c=0
+#     for factor in range(1,num+1):
+#         if num % factor == 0:
+#             c=c+1
+#     if c==2:
+#         l.append(num)
+#         sum=sum+num
+# print("list of prime",l)
+# print("sum of prime:",sum)
+
+
+# x=lambda a,b: a+b
+# print(x(4,6))
+
+# x=lambda a: a**0.5
+# print(x(5))
+
+x=lambda a: "even" if a % 2 == 0 else"odd"
+print(x(3))
