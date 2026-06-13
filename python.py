@@ -47,6 +47,21 @@
 # print(x)
 
 
-c=float(input("enter temperature in celsius:"))
-fahrenheit=(c*9/5)+32
-print("fahrenheit:",fahrenheit)
+# c=float(input("enter temperature in celsius:"))
+# fahrenheit=(c*9/5)+32
+# print("fahrenheit:",fahrenheit)
+
+
+r=100
+l=[]
+sum=0
+for num in range(1,101):
+    c=0
+    for factor in range(1,num+1):
+        if num % factor == 0:
+            c=c+1
+    if c==2:
+        l.append(num)
+        sum=sum+num
+print("list of prime",l)
+print("sum of prime:",sum)
