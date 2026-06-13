@@ -73,5 +73,30 @@
 # x=lambda a: a**0.5
 # print(x(5))
 
-x=lambda a: "even" if a % 2 == 0 else"odd"
-print(x(3))
+# x=lambda a: "even" if a % 2 == 0 else"odd"
+# print(x(3))
+
+# class Student:
+#     def __init__(self,name,age,marks):
+#        self.name=name
+#        self.age=age
+#        self.marks=marks
+# s1=Student("haneena",19,99) 
+# s2=Student("hiba",20,99)      
+# print(s1.name,s1.age,s1.marks)
+# print(s2.name,s2.age,s2.marks)    
+
+
+class student:
+  def __init__(self,name,age,marks):
+    self.name = name
+    self.age = age
+    self.marks=marks
+
+  def info(self):
+      return f"{self.name} is {self.age} years old and her mark is {self.marks}"
+
+s1=student("haneena",19,99)
+s2=student("hiba",20,99)
+print(s1.info())
+print(s2.info())
